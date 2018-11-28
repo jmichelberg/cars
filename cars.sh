@@ -20,7 +20,7 @@ do
 			echo $year:$make:$model >> My_old_cars
 ;;
 		"2") echo "List all cars."
-			sort My_old_cars
+			sort My_old_cars | tr ';' ' '
 ;;
 		"3") echo "Goodbye."
 			break
