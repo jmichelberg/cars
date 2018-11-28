@@ -22,7 +22,8 @@ do
 		"2") echo "List all cars."
 			sort My_old_cars
 ;;
-		"3") break
+		"3") echo "Goodbye."
+			break
 ;;
 		*) echo "Invalid input. Enter a number 1-3."
 esac
